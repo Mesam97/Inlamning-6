@@ -16,7 +16,7 @@ export default function FilmList() {
             title: inputRef.current.value,
             rating: ratingRef.current.value
         }]); } else {
-            alert("hej")
+            alert("Vänligen fyll i båda fälten")
         }
 
         inputRef.current.value = "";
